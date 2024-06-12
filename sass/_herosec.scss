@@ -1,0 +1,55 @@
+.hero{
+    // border: 2px solid blue;
+    height: 80vh;
+    display: flex;
+    align-items: center;
+    // border: 1px solid red;
+    justify-content: space-between;
+
+    .myintro{
+        // border: 1px solid green;
+        width: 500px;
+
+        h1{
+            padding: 20px 0;
+        
+            span{
+                font-family: chiller;
+                font-size: 50px;
+                color: $red-light;
+            }
+        }
+        p{
+            line-height: 25px;
+            padding: 20px 0;
+        }
+        .hire-me{
+            border-style: none;
+            border-radius: 5px;
+            background-color: $red-light;
+            padding: 7px 12px;
+            font-size: 17px;
+        
+            &:hover{
+                background-color: $primary;
+                color: $white;
+            }
+        }
+    }
+    .myprofile{
+        // border: 1px solid blue;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 400px;
+        width: 400px;
+        background-image: url(blob\ \(1\).svg);
+        background-repeat: no-repeat; 
+        background-size: cover;
+        background-position: center;
+        img{
+            height: 313px;
+            width: auto;
+        }
+    }
+}

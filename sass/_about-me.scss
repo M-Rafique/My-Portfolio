@@ -1,0 +1,41 @@
+.profile2{
+    width: 400px;  
+    height: 400px; 
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+    background-image: url(blob.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.about-me{
+    // margin-top: 20px;
+    height: 80vh;
+    display: flex; 
+    justify-content: space-between; 
+    align-items: center;
+    // border: 2px solid orange;
+    h1{
+        padding-bottom: 20px;
+    }
+    p{
+        line-height: 25px;
+    }
+    nav{
+        margin-top: 25px;
+        margin-bottom: 5px;
+    }
+    ul li a{
+        padding: 0px;
+        padding-right: 35px;
+        // text-decoration: underline wavy $primary;
+        // text-underline-offset: 5px;
+    }
+}
+.my-info{
+    h4{
+        color: $primary;
+        padding: 10px 0;
+    }
+}

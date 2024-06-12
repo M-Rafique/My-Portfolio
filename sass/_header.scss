@@ -1,0 +1,49 @@
+header{
+    padding: 20px 0px;
+    display: flex;
+    justify-content: space-between;
+}
+header .logo{
+    font-size: $head2;
+
+    span{
+        color: $primary;
+        font-weight: bold;
+        font-size: $head1;
+        padding-right: 3px;
+    }
+}
+nav{
+    display: flex;
+    align-items: center;
+
+    button{
+        background-color: $primary;
+        color: $white;
+        padding: 8px 12px;
+        border-radius: 5px;
+        border-style: none;
+        font-size: 16px;
+        margin-left: 10px;
+    
+        &:hover{
+            background-color: $orange-light;
+            color: $secondary;
+        }
+    }
+}
+nav ul{
+    display: flex;
+    list-style: none;
+
+    li a{
+        padding: 8px 12px;
+        text-decoration: none;
+        color: $orange-light;
+    
+        &:hover{
+            color: $primary;
+        }
+
+    }
+}
